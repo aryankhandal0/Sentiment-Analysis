@@ -5,11 +5,11 @@ Created on Fri May 17 18:02:49 2019
 
 @author: aryank
 """
-
 import pandas as pd
 import numpy as np
 from nltk.tokenize import sent_tokenize
 from nltk.tokenize import word_tokenize
+from keras.preprocessing.text import Tokenizer
 import nltk
 #import and head, info
 dfy = pd.read_csv('sentiment labelled sentences/yelp_labelled.txt',names=['sentence', 'label'], sep='\t')
@@ -23,14 +23,18 @@ print(df.head())
 print(df.info())
 # word2vec
 sent_f = []
+word_tok=[]
 from gensim.models import Word2Vec
+import gensim
 sentences = df['sentence']
-for ind,row in df.iterrows():
-    sent_tok = sent_tokenize(str(row[0]))
-    word_tok = [word_tokenize(sent) for sent in sent_tok]
-    sent_f.append(word_tok)
-model = Word2Vec(sent_f)
-words = list(model.wv.vocab)
-print(words)
+word_lis =[]
+for sentence in sentences:
+    words = word_tokenize(sentence)
+    word_lis.append(words)
+model = Word2Vec(word_lis,size=50,window=10,min_count=2)
+#words = list(model.wv.vocab)
+#print(words)
+model.save('word2vecmodel.bin')
+print(model)
 
     
