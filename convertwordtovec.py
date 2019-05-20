@@ -48,13 +48,8 @@ maxi = []
 for l in sent_train:
     maxi.append(len(l))
 max_l = max(maxi)
-maxi = []
-for l in sent_test:
-    maxi.append(len(l))
-max_t = max(maxi)
-
 trainX = pad_sequences(sent_train,maxlen = max_l)
-testX = pad_sequences(sent_test,maxlen = max_t)
+testX = pad_sequences(sent_test,maxlen = max_l)
 print("Xtrain_Original: " + str(len(xtrain)))
 print("Xtest_Original: " + str(len(xtest)))
 print("Xtrain_Preprocessed: " + str(len(trainX)))
