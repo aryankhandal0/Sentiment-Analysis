@@ -1,0 +1,212 @@
+Batch 5, train_perplexity=2.4673648
+Total time: 9.590713024139404
+Batch 10, train_perplexity=5.8466363
+Total time: 15.156238317489624
+Loading data from: input/input.txt
+Loaded 2748 sentences.
+Finished loading
+Loading data from: input/input.txt
+Loaded 2748 sentences.
+Finished loading
+Batch 15, train_perplexity=1.5913404
+Total time: 21.006956100463867
+Batch 20, train_perplexity=22.187187
+Total time: 26.54374098777771
+Batch 25, train_perplexity=7.7534223
+Total time: 32.10394072532654
+Loading data from: input/input.txt
+Loaded 2748 sentences.
+Finished loading
+Loading data from: input/input.txt
+Loaded 2748 sentences.
+Finished loading
+Batch 30, train_perplexity=2.248119
+Total time: 37.99885416030884
+Batch 35, train_perplexity=2.8454387
+Total time: 43.57270073890686
+Batch 40, train_perplexity=32.10455
+Total time: 49.11449909210205
+Loading data from: input/input.txt
+Loaded 2748 sentences.
+Finished loading
+Loading data from: input/input.txt
+Loaded 2748 sentences.
+Finished loading
+Batch 45, train_perplexity=11.6174135
+Total time: 55.02808904647827
+Batch 50, train_perplexity=10.177675
+Total time: 60.56724500656128
+Batch 55, train_perplexity=31.681799
+Total time: 66.17351150512695
+Loading data from: input/input.txt
+Loaded 2748 sentences.
+Finished loading
+Loading data from: input/input.txt
+Loaded 2748 sentences.
+Finished loading
+Batch 60, train_perplexity=5.915028
+Total time: 72.04244089126587
+Batch 65, train_perplexity=2.7416866
+Total time: 77.62902402877808
+Batch 70, train_perplexity=4.8141875
+Total time: 83.21188044548035
+Loading data from: input/input.txt
+Loaded 2748 sentences.
+Finished loading
+Loading data from: input/input.txt
+Loaded 2748 sentences.
+Finished loading
+Batch 75, train_perplexity=21.921913
+Total time: 89.09842610359192
+Batch 80, train_perplexity=1.906139
+Total time: 94.66376829147339
+Batch 85, train_perplexity=8.905269
+Total time: 100.2544014453888
+Loading data from: input/input.txt
+Loaded 2748 sentences.
+Finished loading
+Loading data from: input/input.txt
+Loaded 2748 sentences.
+Finished loading
+Batch 90, train_perplexity=2.536433
+Total time: 106.12735557556152
+Batch 95, train_perplexity=4.1766276
+Total time: 111.7039053440094
+Batch 100, train_perplexity=2.3692255
+Total time: 117.2351655960083
+WARNING:tensorflow:Issue encountered when serializing lstm_output_embeddings.
+Type is unsupported, or the types of the items don't match field type in CollectionDef. Note this is a warning and probably safe to ignore.
+'list' object has no attribute 'name'
+Loading data from: input/input.txt
+Loaded 2748 sentences.
+Finished loading
+Loading data from: input/input.txt
+Loaded 2748 sentences.
+Finished loading
+Batch 105, train_perplexity=7.2497926
+Total time: 125.3500759601593
+Batch 110, train_perplexity=31.344978
+Total time: 130.85921812057495
+Batch 115, train_perplexity=21.542183
+Total time: 136.3694565296173
+Loading data from: input/input.txt
+Loaded 2748 sentences.
+Finished loading
+Loading data from: input/input.txt
+Loaded 2748 sentences.
+Finished loading
+Batch 120, train_perplexity=107.56854
+Total time: 142.19007468223572
+Batch 125, train_perplexity=3.7623277
+Total time: 147.72661018371582
+Batch 130, train_perplexity=3.5910501
+Total time: 153.23774909973145
+Loading data from: input/input.txt
+Loaded 2748 sentences.
+Finished loading
+Loading data from: input/input.txt
+Loaded 2748 sentences.
+Finished loading
+Batch 135, train_perplexity=2.2234416
+Total time: 159.05196118354797
+Batch 140, train_perplexity=552.6614
+Total time: 164.58739733695984
+Batch 145, train_perplexity=3.2519825
+Total time: 170.1079478263855
+Loading data from: input/input.txt
+Loaded 2748 sentences.
+Finished loading
+Loading data from: input/input.txt
+Loaded 2748 sentences.
+Finished loading
+Batch 150, train_perplexity=2.571478
+Total time: 175.92768263816833
+Batch 155, train_perplexity=117.64909
+Total time: 181.42364358901978
+Batch 160, train_perplexity=2.7414372
+Total time: 186.91409134864807
+Loading data from: input/input.txt
+Loaded 2748 sentences.
+Finished loading
+Loading data from: input/input.txt
+Loaded 2748 sentences.
+Finished loading
+Batch 165, train_perplexity=3.4774384
+Total time: 192.66041803359985
+Batch 170, train_perplexity=3.4360106
+Total time: 198.13934469223022
+Batch 175, train_perplexity=285.91183
+Total time: 203.66528058052063
+Loading data from: input/input.txt
+Loaded 2748 sentences.
+Finished loading
+Loading data from: input/input.txt
+Loaded 2748 sentences.
+Finished loading
+Batch 180, train_perplexity=21.337057
+Total time: 209.4597134590149
+Batch 185, train_perplexity=8.325716
+Total time: 214.9441695213318
+Batch 190, train_perplexity=115.67284
+Total time: 220.42234420776367
+Loading data from: input/input.txt
+Loaded 2748 sentences.
+Finished loading
+Loading data from: input/input.txt
+Loaded 2748 sentences.
+Finished loading
+Batch 195, train_perplexity=5.7121363
+Total time: 226.21421599388123
+Batch 200, train_perplexity=8.265503
+Total time: 231.69258403778076
+WARNING:tensorflow:Issue encountered when serializing lstm_output_embeddings.
+Type is unsupported, or the types of the items don't match field type in CollectionDef. Note this is a warning and probably safe to ignore.
+'list' object has no attribute 'name'
+Batch 205, train_perplexity=1672.1451
+Total time: 239.0033781528473
+Loading data from: input/input.txt
+Loaded 2748 sentences.
+Finished loading
+Loading data from: input/input.txt
+Loaded 2748 sentences.
+Finished loading
+Batch 210, train_perplexity=74.193344
+Total time: 244.85384607315063
+Batch 215, train_perplexity=5.296507
+Total time: 250.3145604133606
+Batch 220, train_perplexity=1.9282237
+Total time: 255.7778763771057
+Loading data from: input/input.txt
+Loaded 2748 sentences.
+Finished loading
+Loading data from: input/input.txt
+Loaded 2748 sentences.
+Finished loading
+Batch 225, train_perplexity=16.342411
+Total time: 261.5438370704651
+Batch 230, train_perplexity=25.27078
+Total time: 267.02814507484436
+Batch 235, train_perplexity=1.255905
+Total time: 272.492290019989
+Loading data from: input/input.txt
+Loaded 2748 sentences.
+Finished loading
+Loading data from: input/input.txt
+Loaded 2748 sentences.
+Finished loading
+Batch 240, train_perplexity=19.637281
+Total time: 278.23642659187317
+Batch 245, train_perplexity=271.88354
+Total time: 283.7281754016876
+Batch 250, train_perplexity=3.3473463
+Total time: 289.1725080013275
+Loading data from: input/input.txt
+Loaded 2748 sentences.
+Finished loading
+Loading data from: input/input.txt
+Loaded 2748 sentences.
+Finished loading
+Batch 255, train_perplexity=41.835533
+Total time: 294.95284605026245
+Batch 260, train_perplexity=2.3571606
+Total time: 300.4023358821869
